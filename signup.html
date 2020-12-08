@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up to Explore Tapal Kuda</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Explore Night Jakarta</h1>
+        <p>Discover the best evening </p>
+        <p>entertainment in the Jakarta City</p>
+    </div>
+    <div class="signupbox">
+        <h2>Sign Up To Explore Night Jakarta</h2>
+        <button class="Button1"><i class="fa fa-google"></i>  Sign Up With Google</button>
+        <form>
+            <p><b>Username</b></p>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" value="">
+            <p><b>Password</b></p>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" value="">
+            <button type="submit" class="signup" onclick="showinfo(); return false;">Sign Up</button>
+            <p class=" signin ">already a member? <a href="signin.html ">Sign In</a>.</p>
+        </form>
+    </div>
+    <div id="showAlert">
+        <div class="conten ">
+            <p>Welcome !!!</p>
+        </div>
+        <div class="welcome ">
+            <p>Welcome to Night Jakarta, be happy and enjoy our website!!!</p>
+            <button type="submit " class="okay " onclick="showalert() ">Okay</button>
+        </div>
+    </div>
+    <div id="account">
+        <h1>Your account</h1>
+        <table>
+            <tr>
+                <td>Username :</td>
+                <td id="username"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td id="password"></td>
+            </tr>
+        </table>
+        <button type="submit" class="close" onclick="closeInfo()">Close</button>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>

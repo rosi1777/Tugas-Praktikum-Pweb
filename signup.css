@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-Bold.ttf);
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    background-color: #00000080;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.title h1 {
+    color: white;
+    font-size: 27px;
+    font-family: 'Great Wishes';
+    padding-top: 3%;
+    margin-left: 3%;
+}
+
+.title p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-left: 3%;
+    line-height: 7px;
+}
+
+.signupbox {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.signupbox h2 {
+    text-align: center;
+}
+
+.Button1 {
+    width: 325px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    height: 30px;
+    background: #4285F4;
+    color: white;
+    margin-top: 17px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 9%;
+    margin-bottom: 13px;
+}
+
+.signupbox p {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    margin-left: 9%;
+    margin-top: 7px;
+}
+
+.signupbox input {
+    width: 320px;
+    margin-bottom: 20px;
+    margin-left: 9%;
+}
+
+.signupbox h2 {
+    font-family: 'Montserrat';
+}
+
+.signupbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 3px solid #4285F4;
+    outline: none;
+    height: 17px;
+    font-size: 16px;
+}
+
+.signup {
+    width: 325px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #4285F4;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 9%;
+    margin-top: 17px;
+}
+
+.signupbox .signin {
+    margin-top: 17px;
+    font-family: 'Arial';
+    font-size: 17px;
+}
+
+#showAlert {
+    display: absolute;
+    position: fixed;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 2px 2px 8px black;
+    background-color: #4285F4;
+}
+
+.conten {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+}
+
+.welcome {
+    display: absolute;
+    position: fixed;
+    height: 200px;
+    width: 500px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.welcome p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.okay {
+    border: none;
+    outline: none;
+    margin-top: 102px;
+    background-color: #4285F4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    width: 500px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#account {
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+td {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+}
+
+.close {
+    border: none;
+    outline: none;
+    margin-left: 200px;
+    margin-top: 217px;
+    background-color: #4285F4;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
